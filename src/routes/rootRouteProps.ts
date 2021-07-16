@@ -1,11 +1,11 @@
 import { RouteProps } from "react-router-dom";
 
-import { RootPath } from "route/path";
+import { RootPath } from "routes/path";
 
-import { Protected } from "screen/Protected";
-import { SignIn } from "screen/SignIn";
-import { SignOut } from "screen/SignOut";
-import { SignUp } from "screen/SignUp";
+import { Protected } from "screens/Protected";
+import { SignIn } from "screens/SignIn";
+import { SignOut } from "screens/SignOut";
+import { SignUp } from "screens/SignUp";
 
 export const rootRouteProps: RouteProps[] = [
   { path: RootPath.Protected, component: Protected },

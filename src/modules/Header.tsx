@@ -1,8 +1,8 @@
 import { AppBar, Toolbar, IconButton, Typography } from "@material-ui/core";
 import MenuIcon from "@material-ui/icons/Menu";
 
-import { RootPath, ProtectedSubPath } from "route/path";
-import { NavButton } from "component/NavButton";
+import { RootPath, ProtectedSubPath } from "routes/path";
+import { NavButton } from "components/NavButton";
 
 export const Header = () => {
   return (

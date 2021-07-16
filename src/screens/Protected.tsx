@@ -1,8 +1,8 @@
 import { Route, Switch } from "react-router-dom";
 import { Box } from "@material-ui/core";
 
-import { Header } from "./../module/Header";
-import { protectedRouteProps } from "route/protectedRouteProps";
+import { Header } from "../modules/Header";
+import { protectedRouteProps } from "routes/protectedRouteProps";
 
 export const Protected = () => {
   return (
