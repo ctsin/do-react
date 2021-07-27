@@ -13,7 +13,7 @@ const makeUsers: (length: number) => Users = (length = PageSize) =>
 
 export const handlers = [
   rest.get(API.User, ({ url: { searchParams } }, res, ctx) => {
-    const totalPages = 3;
+    const totalPages = 30;
     const users = makeUsers(PageSize);
     const page = +(searchParams.get(SearchParams.Page) ?? PageParamInitial);
     const nextPage = page < totalPages - 1 ? page + 1 : undefined;
