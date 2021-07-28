@@ -1,3 +1,3 @@
-export const Home = () => {
-  return <div>Home</div>;
+export const ReactVirtual = () => {
+  return <div>react-virtual</div>;
 };

@@ -10,7 +10,7 @@ export const RootPath = {
 export const ProtectedSubPath = withRootPath(
   {
     User: `/user`,
-    Home: `/home`,
+    ReactVirtual: `/react-virtual`,
   } as const,
   RootPath.Protected
 );
