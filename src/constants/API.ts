@@ -18,4 +18,3 @@ export const API = withRootPath(
   } as const,
   APIRoot
 );
-console.log("调试 ~ file: API.ts ~ line 21 ~ API", API);
